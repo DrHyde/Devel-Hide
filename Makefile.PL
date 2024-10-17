@@ -10,7 +10,6 @@ my %write_makefile_args = (
     VERSION_FROM => 'lib/Devel/Hide.pm',
     PREREQ_PM    => {
         'perl'       => 5.006001,
-        'File::Temp' => 0,          # perl ≤ 5.8.0
     },
     ABSTRACT_FROM => 'lib/Devel/Hide.pm',
     AUTHOR        => 'Adriano Ferreira <ferreira@cpan.org>',
