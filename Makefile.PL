@@ -33,8 +33,8 @@ my %write_makefile_args = (
         resources => {
             repository => {
                 type => 'git',
-                url  => 'https://github.com/aferreira/cpan-Devel-Hide.git',
-                web  => 'https://github.com/aferreira/cpan-Devel-Hide',
+                url  => 'https://github.com/DrHyde/Devel-Hide.git',
+                web  => 'https://github.com/DrHyde/Devel-Hide',
             },
         },
     },
