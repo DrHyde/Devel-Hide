@@ -12,7 +12,9 @@ our $VERSION = '0.0016';
 # $phase is used to identify which version of the hints hash to
 #   use - either %^H when we're updating it, or pulling it out
 #   of caller() when we want to read it
-use vars qw( @HIDDEN $phase );
+our @HIDDEN;
+our $phase;
+
 BEGIN { $phase = 'runtime'; }
 
 # settings are a comma- (and only comma, no quotes or spaces)
