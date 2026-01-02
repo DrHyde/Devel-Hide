@@ -1,6 +1,6 @@
 Revision history for Perl extension Devel::Hide.
 
-0.0016      XXXX-XX-XX
+0.0016      2026-01-02
 
    - Drop support for perl 5.6 (deprecated since 0.0012)
 
