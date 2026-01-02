@@ -22,3 +22,4 @@ t/Q.pm                                   "
 t/R.pm                                   "
 
 lib/Devel/Hide.pm
+MANIFEST.SKIP
