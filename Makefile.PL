@@ -6,14 +6,14 @@ my $EUMM_VERSION = $ExtUtils::MakeMaker::VERSION;
 $EUMM_VERSION =~ tr/_//d;
 
 my %write_makefile_args = (
-    NAME         => 'Devel::Hide',
-    VERSION_FROM => 'lib/Devel/Hide.pm',
+    NAME          => 'Devel::Hide',
+    VERSION_FROM  => 'lib/Devel/Hide.pm',
     ABSTRACT_FROM => 'lib/Devel/Hide.pm',
     AUTHOR        => 'Adriano Ferreira <ferreira@cpan.org>',
     PREREQ_PM     => {
         'Test::More' => 0.82,
     },
-    META_MERGE    => {
+    META_MERGE => {
         license   => 'perl',
         resources => {
             repository => 'https://github.com/DrHyde/Devel-Hide',
