@@ -13,8 +13,8 @@ my %write_makefile_args = (
     PREREQ_PM     => {
         'Test::More' => 0.82,
     },
+    META_ADD   => { license => 'perl' },
     META_MERGE => {
-        license   => 'perl',
         resources => {
             repository => 'https://github.com/DrHyde/Devel-Hide',
             bugtracker => 'https://github.com/DrHyde/Devel-Hide/issues'
